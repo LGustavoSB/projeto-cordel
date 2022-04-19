@@ -1,0 +1,103 @@
+@charset "UTF-8"; 
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&family=Sriracha&display=swap');
+
+:root {
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: 'Passion One', cursive;
+    --fonte3: 'Sriracha', cursive;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-size: 1em;
+}
+p{
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px
+}
+h1{
+    font-family: var(--fonte1);
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: lighter;
+}
+body{
+    font-family: var(--fonte1);
+    min-height: 100vh;
+}
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+header h1{
+    font-family: var(--fonte2);
+    font-size: 10vw;
+    font-variant: small-caps;
+    padding-top: 50px;
+    margin: 0px;
+}
+header p{
+    padding-bottom: 50px;
+    margin: 0px;
+}
+
+section{
+    display: block;
+    font-size: 3.5vw;
+    font-family: var(--fonte3);
+    padding-left: 30px;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    box-shadow: inset 6px 6px 13px 0px rgb(0 0 0 / 47%);
+}
+
+section.imagem > p{
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.473);
+    padding: 5px;
+    box-shadow: #00000069 -3px -2px 18px 7px;
+    text-shadow: 1px 1px 0px black;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: var(--fonte1);
+    padding: 10px;
+}
+header a, footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+header a:hover, footer a:hover {
+    color: white;
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+.imagem{
+    background-color: rgb(51,51,51);
+    color: white;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#img1 {
+
+    background-image: url('imagens/background001.jpg');
+    background-position: right center;
+}   
+#img2 {
+
+    background-image: url('imagens/background002.jpg');
+}
