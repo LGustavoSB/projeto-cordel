@@ -1,3 +1,3 @@
 # projeto-cordel
 
-[Link](https://lgustavosb.github.io/projeto-cordel/cordel.html)
+[Projeto Cordel](https://lgustavosb.github.io/projeto-cordel/cordel.html)
