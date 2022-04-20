@@ -30,7 +30,7 @@ h1{
 body{
     font-family: var(--fonte1);
     min-height: 100vh;
-    background-color: aliceblue;
+    background-color: white;
     color: black;
 }
 header{
